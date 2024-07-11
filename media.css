@@ -4,8 +4,9 @@
     }
     .portfolio-cover{
         margin: 0 0 0 60px;
-        height: 50vh;
+        height: 95vh;
     } 
+    
     .cover-text{
         font-size: 70px;
     }
@@ -33,7 +34,7 @@
         flex: 1;
     }
     .contact{
-        height: 50vh;
+        height: 100vh;
     }
     .contact-section{
         display: block;
@@ -50,8 +51,9 @@
 }
 @media(max-width:768px){
     .portfolio-cover{
-        margin: 0 0 30px 0;
-        height: 100vh;
+        margin:0;
+        height: 900px;
+        
     }
     .navbar{
         display: block;
@@ -68,6 +70,9 @@
         margin-top: 520px;
         padding-right: 0;
         text-align: center;
+    }
+    .intro-image{
+        left:0;
     }
     .cover-text{
         font-size: 35px;
@@ -90,17 +95,17 @@
         padding: 30px 0;
     }
     .contact{
-        height: 80vh;
+        height: 100vh;
     }
     .contact-section{
         padding: 0;
     }
     .send{
-        margin: 30px 0;
+        margin: 20px 0;
     }
     .footer{
         display:block;
-        padding: 20px 0;
+        padding: 10px 0;
         text-align: center;
     }
 }
