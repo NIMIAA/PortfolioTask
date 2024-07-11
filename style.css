@@ -34,7 +34,8 @@ body{
 .navbar h3{
     flex: 1;
 }
-.nav-icons a{
+.nav-icons a,
+.footer-icons a{
     margin: 0 10px;
 }
 .intro-text{
